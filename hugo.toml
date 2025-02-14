@@ -1,0 +1,161 @@
+baseURL = 'https://kizuna-tracking.com/'
+title = 'Kizuna Tracking'
+languageCode = 'en-us'
+defaultContentLanguage = "en"
+theme = 'spectral'
+
+[pagination]
+pagerSize = 7
+
+[params]
+fancyTitle = "Kizuna-Tracking"
+copyright = "Kizuna-Tracking Inc"
+description = 'Re-imagine the future of Track and Trace.'
+startbuttonText = "Activate"
+startbuttonLink = "#"
+body_is_markdown = true
+#custom_css = "foo.css"
+#custom_sass = "bar.scss"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+# [[params.menu.main]]
+# url = '/posts/'
+# title = "Posts"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
+
+[params.one]
+enable = true
+title = 'Integrated knowledge of your organization where it matters'
+body = '''
+Our engine gives back power where it can be activated. Your track and trace
+system can finally be put to action and connect to existing infrastructure where
+value can be added.
+'''
+
+[[params.one.icon]]
+icon = "solid fa-pencil"
+style = "1"
+label = "Record"
+
+[[params.one.icon]]
+icon = "solid fa-magnifying-glass"
+style = "2"
+label = "Analyze"
+
+[[params.one.icon]]
+icon = "solid fa-code"
+style = "3"
+label = "Activate"
+
+[params.two]
+enable = false
+
+[[params.two.section]]
+img = "img/pic01.jpg"
+img_alt = "blurry background: white/grey"
+title = 'Magna primis lobortis<br />sed ullamcorper'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[[params.two.section]]
+img = "img/pic02.jpg"
+title = 'Tortor dolore feugiat<br />elementum magna'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[[params.two.section]]
+img = "img/pic03.jpg"
+title = 'Magna primis lobortis<br />sed ullamcorper'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[params.three]
+enable = false
+title = 'Accumsan mus tortor nunc aliquet'
+body = '''
+Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend
+fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane"
+title = "Arcu accumsan"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "solid fa-laptop"
+title = "Ac Augue Eget"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "solid fa-code"
+title = "Foo bar"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "solid fa-headphones-alt"
+title = "Baz kram"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-heart"
+title = "Some latin text"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-flag"
+title = "Nothing important"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[params.cta]
+enable = false
+title = "Arcue ut vel commodo"
+body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+
+[[params.cta.link]]
+href = "#"
+text = "Activate"
+special = true
+
+[[params.cta.link]]
+href = "#"
+text = "Learn More"
+special = false
+
+[params.contact]
+enable = true
+title = "Find us"
+body = "Leave us a message."
+phone = ""
+address = ""
+email = ""
+subject = "Get in contact"
+formspree_form_id = "xgvonwre"
+
+[params.social]
+twitter = ""
+mastodon = ""
+github = ""
+facebook = ""
+youtube = ""
+instagram = ""
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
+
+[languages.es]
+weight = 10
+languageName = "Español"
